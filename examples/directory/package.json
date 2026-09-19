@@ -28,7 +28,10 @@
     "@types/testing-library__jest-dom": "^5.14.9",
     "@vitejs/plugin-react": "^4.3.1",
     "@vitest/ui": "^2.1.1",
+    "css-configuration": "workspace:*",
     "msw": "^2.4.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "vite": "^5.4.6",
     "vitest": "^2.1.1"
   }
