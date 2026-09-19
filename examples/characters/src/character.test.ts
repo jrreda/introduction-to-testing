@@ -6,11 +6,11 @@ const lastName = 'Reda';
 const role = 'Fron-end engineer';
 
 describe('Character', () => {
-  // let character;
+  let character;
 
-  // beforeEach(() => {
-  //   character = new Character(firstName, lastName, role);
-  // });
+  beforeEach(() => {
+    character = new Character(firstName, lastName, role);
+  });
 
   it('should create a character with a first name, last name, and role', () => {
     const character = new Character(firstName, lastName, role);

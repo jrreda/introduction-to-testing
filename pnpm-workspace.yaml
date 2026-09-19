@@ -1,0 +1,10 @@
+packages:
+  - 'packages/*'
+  - 'examples/*'
+
+# Neither postinstall script is needed here: Vite 5 gets its esbuild binary from
+# the @esbuild/<platform> optional dependency, and msw is only used in Node mode
+# (setupServer), so the browser service worker it would copy is unused.
+allowBuilds:
+  esbuild: false
+  msw: false
